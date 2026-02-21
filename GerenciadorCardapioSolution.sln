@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorCardapio", "GerenciadorCardapio\GerenciadorCardapio.csproj", "{055017A1-4AD6-4C36-8AB0-7D995BA1C391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorCardapioUnitTest.Tests", "GerenciadorCardapioUnitTest.Tests\GerenciadorCardapioUnitTest.Tests.csproj", "{14DADD56-7EB9-495E-9AE5-92037E7C6AB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GerenciadorCardapio.IntegrationTests", "GerenciadorCardapio.IntegrationTests\GerenciadorCardapio.IntegrationTests.csproj", "{3BF55154-ECAF-4081-8304-ADA3BE131F5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{055017A1-4AD6-4C36-8AB0-7D995BA1C391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{055017A1-4AD6-4C36-8AB0-7D995BA1C391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{055017A1-4AD6-4C36-8AB0-7D995BA1C391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{055017A1-4AD6-4C36-8AB0-7D995BA1C391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14DADD56-7EB9-495E-9AE5-92037E7C6AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14DADD56-7EB9-495E-9AE5-92037E7C6AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14DADD56-7EB9-495E-9AE5-92037E7C6AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14DADD56-7EB9-495E-9AE5-92037E7C6AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BF55154-ECAF-4081-8304-ADA3BE131F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BF55154-ECAF-4081-8304-ADA3BE131F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BF55154-ECAF-4081-8304-ADA3BE131F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BF55154-ECAF-4081-8304-ADA3BE131F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

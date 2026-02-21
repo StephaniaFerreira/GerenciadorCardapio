@@ -1,0 +1,56 @@
+# Build folders
+
+bin/
+obj/
+
+# Debug / Release
+
+Debug/
+Release/
+
+# Rider / VS Code / Visual Studio
+
+.vscode/
+.idea/
+.vs/
+
+# User-specific files
+
+*.user
+*.suo
+*.userprefs
+
+# Logs
+
+*.log
+
+# OS files
+
+.DS_Store
+Thumbs.db
+
+# Test results
+
+TestResults/
+
+# .NET artifacts
+
+*.runtimeconfig.json
+*.deps.json
+
+# Coverage
+
+coverage/
+
+# NuGet
+
+packages/
+*.nupkg
+
+# Environment
+
+.env
+
+# Mongo local dump
+
+dump/
