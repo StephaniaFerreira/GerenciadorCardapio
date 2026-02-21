@@ -80,26 +80,11 @@ cd GerenciadorCardapio
 
 ---
 
-### 2️⃣ Configure o MongoDB
-
-No arquivo:
-
-```
-appsettings.json
-```
-
-configure:
-
-```json
-"MongoSettings": {
-  "ConnectionString": "mongodb://localhost:27017",
-  "DatabaseName": "GerenciadorCardapioDB"
-}
-```
+### 
 
 ---
 
-### 3️⃣ Inicie o MongoDB
+### 2️⃣ Inicie o MongoDB
 
 Linux:
 
@@ -115,11 +100,12 @@ mongod
 
 ---
 
-### 4️⃣ Execute a API
+### 3️⃣ Execute a API e Testes Unitários e de Integração
 
 ```
 dotnet restore
 dotnet run
+dotnet test
 ```
 
 A API estará disponível em:
