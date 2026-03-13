@@ -1,8 +1,10 @@
-# 📌 Gerenciador de Cardápio — API .NET + MongoDB
+# 📖 Sobre o projeto
+
+O sistema simula um cenário real onde usuários organizam receitas em períodos (semanais, mensais ou trimestrais), permitindo consultas eficientes por intervalo de datas.
+
+## 📌 Gerenciador de Cardápio — API .NET + MongoDB
 
 API REST desenvolvida em **.NET 6** com **MongoDB**, cujo principal objetivo é demonstrar **modelagem de dados orientada a consulta** utilizando banco NoSQL. 
-
-Para que a consulta por intervalo de tempo e por receita ao cardápio tenha uma boa performance adicionei dois indexes idx_cardapio_periodo e idx_cardapio_nome_receita.
 
 O sistema permite:
 
@@ -19,9 +21,18 @@ Este projeto foi construído com foco em aprendizado de:
 ✔ Organização de serviços
 ✔ Separação de responsabilidades
 
+## ⚡ Otimização de performance
+
+Foram criados índices MongoDB:
+
+- idx_cardapio_periodo → consultas por intervalo de datas
+- idx_cardapio_nome_receita → busca por receita
+
+Objetivo: evitar collection scans e melhorar tempo de resposta.
+
 ---
 
-## 🛠 Stack utilizada
+## 🧱 Arquitetura e Tecnologias
 
 * **.NET** → versão `6.0.428`
 * **MongoDB.Driver** → versão `2.7.0`
